@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FX Analysis – User Manual</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #0a0a0a; color: #f0f0f0;
+    min-height: 100vh; display: flex; flex-direction: column;
+  }
+  .topbar {
+    background: #111; border-bottom: 1px solid #222;
+    padding: 14px 24px; display: flex; align-items: center;
+    justify-content: space-between; flex-wrap: wrap; gap: 12px;
+  }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand-dot { width: 10px; height: 10px; border-radius: 50%; background: #7c3aed; flex-shrink: 0; }
+  .brand-name { font-size: 16px; font-weight: 700; color: #fff; }
+  .brand-sub { font-size: 12px; color: #555; margin-top: 2px; }
+  .actions { display: flex; gap: 10px; flex-wrap: wrap; }
+  .btn {
+    padding: 8px 18px; border-radius: 6px; font-size: 13px;
+    font-weight: 600; cursor: pointer; text-decoration: none;
+    display: inline-flex; align-items: center; gap: 6px; border: none;
+  }
+  .btn-outline {
+    background: transparent; border: 1px solid #444; color: #ccc;
+  }
+  .btn-outline:hover { border-color: #7c3aed; color: #a78bfa; }
+  .btn-primary { background: #7c3aed; color: #fff; }
+  .btn-primary:hover { background: #6d28d9; }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="brand">
+    <div class="brand-dot"></div>
+    <div>
+      <div class="brand-name">FX Analysis — User Manual</div>
+      <div class="brand-sub">Professional Trading Indicator · Version 1.47</div>
+    </div>
+  </div>
+  <div class="actions">
+    <a class="btn btn-outline" href="FX_Analysis_User_Manual.pdf" target="_blank">&#128065; Open in new tab</a>
+    <a class="btn btn-primary" href="FX_Analysis_User_Manual.pdf" download>&#11015; Download PDF</a>
+  </div>
+</div>
+</body>
+</html>
